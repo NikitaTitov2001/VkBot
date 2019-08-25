@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from modules import config # локальный модуль
+import config # локальный модуль
 import re
 
 vk = config.bots_long_poll_api('2f894a490ab3cbcdb0776b8f53557a8c8b6e1197ef0f4485586ea1868a533d88ff384e8742f8934e2c77c', 185666679, 5.101) # создаю экземпляр класса 'bots_long_poll_api'
